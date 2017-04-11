@@ -1,0 +1,10 @@
+timesteps_per_batch: 10000
+trajectories_per_batch : 10
+n_iter: 100
+gamma: 0.99
+actor_learning_rate: 0.01
+critic_learning_rate: 0.05
+actor_n_hidden: 20
+critic_n_hidden: 20
+repeat_n_actions: 1
+save_model: False
